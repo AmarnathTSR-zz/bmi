@@ -1,0 +1,19 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "Calculate bmi using height and weight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmarnathTSR/bmi.git"
+  },
+  "author": "Amarnath TSR <tsr.amarnath@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmarnathTSR/bmi/issues"
+  },
+  "homepage": "https://github.com/AmarnathTSR/bmi#readme"
+}
