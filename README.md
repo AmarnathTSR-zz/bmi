@@ -12,7 +12,7 @@ npm i bmi-calculator-function
 # example
 
 ```js
-var bmi = require('bmi-calculator-function')
+var bmi = require('bmi-calculator-function');
 
 // 154 Kg, 172 CM
 console.log( bmi(154, 72) );
@@ -22,10 +22,10 @@ console.log( bmi(154, 72) );
 # api
 
 ```js
-var bmi = require('bmi-calculator-function')
+var bmi = require('bmi-calculator-function');
 ```
 
-# `var bmi = calcBmi(weight, height, [imperial])`
+# `var bmi = bmi(weight, height);`
 
 - `weight` is a number in kilograms
 - `height` is a number in centimetres
@@ -35,7 +35,6 @@ var bmi = require('bmi-calculator-function')
 `bmi` is an object with the following properties:
 
 - `value` is the bmi number, e.g. `21.36`
-- `name` is a human-readable string, e.g. `'severely underweight'`
 
 
 # cli
@@ -44,6 +43,9 @@ var bmi = require('bmi-calculator-function')
 - Run `npm i bmi-calculator-function`
 
 ```
+# Author
+
+ - Amarnath TSR (https://www.amarnath.xyz)
 
 # license
 
