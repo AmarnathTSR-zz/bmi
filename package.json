@@ -1,5 +1,5 @@
 {
-  "name": "bmi-calculator",
+  "name": "bmi-calculator-function",
   "version": "1.0.0",
   "description": "Calculate bmi using height and weight",
   "main": "index.js",
