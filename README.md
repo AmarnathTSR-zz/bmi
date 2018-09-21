@@ -3,6 +3,22 @@ bmi-calculator-function
 
 A Body Mass Index calculator.
 
+# Formla
+
+```js
+
+Metric BMI Formulae: - BMI= (weight in Kilograms/ (height in meters*height in meters))
+
+
+Less than 18.5 is represents underweight
+
+Amid 18.5 -24.9 indicate normal weight
+
+Between 25 -29.9 denotes over weigh
+
+Beyond 30 signifies obesity
+```
+
 # Install
 
 ```js
@@ -14,9 +30,10 @@ npm i bmi-calculator-function
 ```js
 var bmi = require('bmi-calculator-function');
 
-// 154 Kg, 172 CM
-console.log( bmi(154, 72) );
+// 1.8Meter Height, 75KG Weight
+console.log(bmi.bmi(1.8, 75));
 
+// { bmi: '23.15', index: 'Normal Weight' }
 ```
 
 # api
@@ -34,7 +51,8 @@ var bmi = require('bmi-calculator-function');
 
 `bmi` is an object with the following properties:
 
-- `value` is the bmi number, e.g. `21.36`
+- `bmi` is the bmi number, e.g. `21.36`
+-`index` Reffers the current position, e.g. `Over Weight` or `under weight`
 
 
 # cli
